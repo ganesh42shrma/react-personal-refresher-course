@@ -1,0 +1,35 @@
+/* Basic Button Styles */
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow margin and padding */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Small margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  /* Hover Effects */
+  button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  /* Active State */
+  button:active {
+    background-color: #3e8e41; /* Even darker green when active */
+    transform: scale(1); /* Reset scale when active */
+  }
+  
+  /* Disabled State */
+  button:disabled {
+    background-color: #cccccc; /* Light gray background */
+    cursor: not-allowed; /* Not-allowed cursor */
+    opacity: 0.6; /* Semi-transparent */
+  }
+  

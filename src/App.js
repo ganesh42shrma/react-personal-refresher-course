@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Application from "./prop drilling example/App"
+import ReactFunctionalcomponent from './1-functionalComponent';
+import MyClasscomponent from './2-classComponent';
+import ExampleUseState from './6-useState';
+import ExampleUseEffect from "./7-useEffect";
+import ExampleUseEffect2 from "./7-useEffect2";
+import ExampleUseContext from "./useContext/8-useContext";
+import UseContext2 from "./useContext2/UseContext2";
+import './style.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ReactFunctionalcomponent/>
+      <MyClasscomponent/>
+      <Application/>
+      <ExampleUseState/>
+      <ExampleUseEffect/>
+      <ExampleUseEffect2/>
+      <ExampleUseContext/>
+      <UseContext2/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
