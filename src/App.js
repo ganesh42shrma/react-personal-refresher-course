@@ -12,6 +12,7 @@ import UseReducerSimpleExample from "./useReducer2/useReducerExampleTwo";
 import UseRefExample from "./useRef/UseRefExample";
 import UseRefExample2 from "./useRef/UseRefExample2";
 import UseRefExample3 from "./useRef/UseRefExample3";
+import ExampleUseMemo from "./useMemo/ExampleUseMemo";
 import './style.css'
 
 function App() {
@@ -28,10 +29,10 @@ function App() {
       <UseReducerExample/>
       <UseReducerExample2/>
       <UseReducerSimpleExample/>
-      <UseRefExample/> */}
-      {/* <UseRefExample2/> */}
-      <UseRefExample3/>
-
+      <UseRefExample/>
+      <UseRefExample2/>
+      <UseRefExample3/> */}
+      <ExampleUseMemo/>
     </div>
   )
 }
