@@ -9,6 +9,9 @@ import UseContext2 from "./useContext2/UseContext2";
 import UseReducerExample from "./useReducer/1-useReducer";
 import UseReducerExample2 from "./useReducer/2-useReducer";
 import UseReducerSimpleExample from "./useReducer2/useReducerExampleTwo";
+import UseRefExample from "./useRef/UseRefExample";
+import UseRefExample2 from "./useRef/UseRefExample2";
+import UseRefExample3 from "./useRef/UseRefExample3";
 import './style.css'
 
 function App() {
@@ -23,8 +26,12 @@ function App() {
       <ExampleUseContext/>
       <UseContext2/>
       <UseReducerExample/>
-      <UseReducerExample2/> */}
+      <UseReducerExample2/>
       <UseReducerSimpleExample/>
+      <UseRefExample/> */}
+      {/* <UseRefExample2/> */}
+      <UseRefExample3/>
+
     </div>
   )
 }
