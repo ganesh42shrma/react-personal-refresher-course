@@ -33,3 +33,48 @@ button {
     opacity: 0.6; /* Semi-transparent */
   }
   
+  /* Form container */
+.form-container {
+  width: 300px;
+  margin: auto;
+}
+
+/* Form */
+.form {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* Form title */
+.form-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Form input fields */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Submit button hover effect */
+.submit-btn:hover {
+  background-color: #0056b3;
+}
